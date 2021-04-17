@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "anhdht/mysql"
+  config.vm.box = "bigdeal/mysql57"
 
   config.vm.provider "virtualbox" do |vb|
     vb.memory = 1024
